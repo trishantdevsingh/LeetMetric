@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url(https://t3.ftcdn.net/jpg/03/02/04/06/360_F_302040655_IEH9RyDlu7LL8YCLjgL1IskhrpOlmlSv.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container{
+    color: rgb(254, 254, 254);
+    border-radius: 10px;
+    padding: 2rem;
+    border: 1px solid black;
+    gap:3rem;
+    width: 40%;
+    min-width:360px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter:blur(5px);
+    box-shadow: 5px 8px 5px rgb(2, 2, 2);
+}
+#username{
+    width:60%;
+    background-color: rgb(45, 57, 57);
+    color: rgb(153, 153, 153);
+    border-radius: 0.5rem;
+}
+.userinp{
+    /* max-width:305px; */
+    flex-shrink: 2;
+    display:flex;
+    justify-content: space-between;
+}
+.user{
+    padding: 0 0.4rem;
+    flex-wrap: wrap;
+}
+.button{
+    background-color: rgb(125, 214, 255);
+    border-radius: 0.4rem;border:none;
+    padding: 0.2rem;
+    height:27px;
+}
+.progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem; 
+    flex-wrap: wrap;   
+}
+.progressitem{
+    width : 80px;
+    height:80px;
+    /* background-color: green; */
+    background-image:conic-gradient(green var(--progress , 0%), rgb(30, 30, 33) 0%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width:80%;
+    height:80%;
+    border-radius: 50%;
+    background-color: rgb(26, 71, 26);
+    display: flex;
+    color:rgb(204, 219, 232);
+    font-size: smaller;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.cardstats{
+    display:flex;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    margin-top: 15px;
+}
+.card{
+    /* background-color:rgb(0, 45, 180); */
+    /* backdrop-filter: blur(); */
+    width:100%;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
